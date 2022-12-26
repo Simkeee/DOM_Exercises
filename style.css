@@ -1,0 +1,32 @@
+.gradoviUSrbiji {
+    background-color: #e2fda4;
+  }
+.list-item-bg-color{
+    background-color: #12ad5f;
+  }
+.container-third {
+    background-color: #0400ff;
+    text-transform: uppercase;
+  }
+  .active{
+    background-color: #b80606;
+  }
+
+  .test {
+    color: rgb(140, 6, 75);
+  }
+button {
+  background-color: #06b818;
+  border-radius: 20%;
+  box-shadow: #12ad5f;
+}
+
+#inn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+#parent-node, #parent-node2{
+  background: rgb(221, 137, 137);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Selecting One/Multiple Elements</h1>
+    <ul id = "reke">
+        <li>Dunav</li>
+        <li>Sava</li>
+        <li>Morava</li>
+        <li>Toplica</li>
+    </ul>
+    <ul id = "gradovi">
+        <li>Nis</li>
+        <li>Sabac</li>
+        <li>Valjevo</li>
+        <li>Leskovac</li>
+        <li>Subotica</li>
+    </ul>
+    <ul id = "planine">
+        <li>Kopaonik</li>
+        <li>Zlatibor</li>
+        <li>Tara</li>
+        <li>Kukavica</li>
+        <li>Golija</li>
+    </ul>
+    <h1>Traversing</h1>
+    <div>
+        <ul id = "jezera">
+            <li>Vlasinsko</li>
+            <li>Borsko</li>
+            <li>Celije</li>
+        </ul>
+    </div>
+    <div>
+        <ul id = "sela">
+            <li>Grgurovce</li>
+            <li>Sumane</li>
+            <li>Vranovce</li>
+        </ul>
+    </div>
+<h1>Access/Update Text Node</h1>
+<nav>
+    <ul id = "navbar">
+        <li id="navbar-1">Menu <button onclick = "getTextAllert()">Try it</button></li>
+        <li id="navbar-2">Services</li>
+        <li>Abaut us</li>
+        <li>Contact us <button onclick = "changeText(x)">Promeni tekst</button></li>
+    </ul>
+</nav>
+<h1>InnerHTML</h1>
+<div id="inn">
+    <div id = "parent-node">using DOM manipulation methods </div>
+    <div id = "parent-node2"> using innerHTML </div>
+</div>
+<h1>Attributes</h1>
+<form id = "myForm">
+    <label for = "name">Name:</label><br>
+    <input type = "text" id = "name" required><br>
+    <label for = "email">Email:</label><br>
+    <input type = "email" id = "email" required><br>
+    <label for = "message">Message:</label><br>
+    <textarea id = "message"></textarea><br>
+    <input type = "submit" value = "Submit">
+  </form>
+</body>
+<script src = "main.js"></script>
